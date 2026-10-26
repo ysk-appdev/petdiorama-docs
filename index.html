@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ジオラマ島のちいさなすみか</title>
+<style>
+:root{--paper:#F4F8F9;--ink:#1D2B36;--muted:#53636E;--line:#D3DFE4;--accent:#2B7A8C;--soft:#E2EFF2}
+@media (prefers-color-scheme:dark){:root{--paper:#111A20;--ink:#E4EDF1;--muted:#9DAEB8;--line:#24343D;--accent:#6BC0D2;--soft:#18303A}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.9 "Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",system-ui,sans-serif}
+.wrap{max-width:40rem;margin:0 auto;padding:2rem 1.25rem 4rem}
+header.site{display:flex;align-items:center;gap:1rem;padding-bottom:1.25rem;border-bottom:1px solid var(--line);margin-bottom:1.5rem}
+header.site svg{flex:none;width:72px;height:auto}
+.brand{margin:0;font-size:.9rem;color:var(--muted);line-height:1.5}
+h1{font-size:1.6rem;line-height:1.4;margin:.15rem 0 0}
+p,ul{margin:.6rem 0}
+ul{padding-left:1.3rem}
+li{margin:.5rem 0}
+a{color:var(--accent);text-underline-offset:.2em}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+footer{margin-top:3rem;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<svg viewBox="0 0 72 48" aria-hidden="true" focusable="false">
+<path d="M6 40c10-3 20-3 30 0s20 3 30 0" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+<path d="M13 37c3-12 12-19 23-19s20 7 23 19z" fill="var(--accent)"/>
+<ellipse cx="36" cy="18" rx="10" ry="4.5" fill="var(--soft)" stroke="var(--ink)" stroke-width="1.5"/>
+<circle cx="32.5" cy="16.2" r="2.4" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2"/>
+<circle cx="39.5" cy="16.6" r="2.4" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2"/>
+</svg>
+<div>
+<p class="brand">ysk-appdev</p>
+<h1>ジオラマ島のちいさなすみか</h1>
+</div>
+</header>
+
+<p>ファンタジーの島を舞台にした、育成・ミニゲームアプリです。</p>
+
+<ul>
+<li><a href="support.html">サポート</a></li>
+<li><a href="privacy.html">プライバシーポリシー</a></li>
+</ul>
+
+<footer>提供者: ysk-appdev(個人開発者)</footer>
+</div>
+</body>
+</html>
